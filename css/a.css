@@ -12,23 +12,23 @@ body {
 }
 
 body.Home {
-  background-image: url('/lock/asset/tachyon.jpg');
+  background-image: url('/asset/tachyon.jpg');
 }
 
 body.Kontak {
-  background-image: url('/lock/asset/Opera.jpg');
+  background-image: url('/asset/Opera.jpg');
 }
 
 body.Profil {
-  background-image: url('/lock/asset/Cafe.jpg');
+  background-image: url('/asset/Cafe.jpg');
 }
 
 body.Chi{
-  background-image: url('/lock/asset/chi.jpg');
+  background-image: url('/asset/chi.jpg');
 }
 
 body.Project {
-  background-image: url('/lock/asset/Sunday.jpg');
+  background-image: url('/asset/Sunday.jpg');
 }
 
 body {
