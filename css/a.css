@@ -5,30 +5,30 @@ body {
   font-family: sans-serif;
   overflow: auto;
   scrollbar-width: 0;
-  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  -ms-overflow-style: none;
 }
 ::-webkit-scrollbar {
-  display: none; /* Chrome, Safari, and Opera */
+  display: none; 
 }
 
 body.Home {
-  background-image: url('/asset/tachyon.jpg');
+  background-image: url('/Portofolio/asset/tachyon.jpg');
 }
 
 body.Kontak {
-  background-image: url('/asset/Opera.jpg');
+  background-image: url('/Portofolio/asset/Opera.jpg');
 }
 
 body.Profil {
-  background-image: url('/asset/Cafe.jpg');
+  background-image: url('/Portofolio/asset/Cafe.jpg');
 }
 
 body.Chi{
-  background-image: url('/asset/chi.jpg');
+  background-image: url('/Portofolio/asset/chi.jpg');
 }
 
 body.Project {
-  background-image: url('/asset/Sunday.jpg');
+  background-image: url('/Portofolio/asset/Sunday.jpg');
 }
 
 body {
