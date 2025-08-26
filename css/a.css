@@ -1,0 +1,125 @@
+body {
+  margin: 0;            
+  padding: 0;
+  height: 100%;
+  font-family: sans-serif;
+  overflow: auto;
+  scrollbar-width: 0;
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+}
+::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, and Opera */
+}
+
+body.Home {
+  background-image: url('/lock/asset/tachyon.jpg');
+}
+
+body.Kontak {
+  background-image: url('/lock/asset/Opera.jpg');
+}
+
+body.Profil {
+  background-image: url('/lock/asset/Cafe.jpg');
+}
+
+body.Chi{
+  background-image: url('/lock/asset/chi.jpg');
+}
+
+body.Project {
+  background-image: url('/lock/asset/Sunday.jpg');
+}
+
+body {
+  background-size: cover;             
+  background-position: center;         
+  background-repeat: no-repeat;        
+  background-attachment: fixed;        
+  background-color: #000;
+}
+
+.awok {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.awok {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 50%;
+}
+
+.depan {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.depan {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 50%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 20px;
+  background-color: rgba(255, 255, 255, 0.9); 
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo img {
+  height: 40px;
+  width: auto;
+  border-radius: 50%;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: blue;
+}
+
+.ajah {  
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 50%;
+}
+
+.contact-info {
+  color: white;
+}
+
+.A {
+      padding: 10px;
+      margin: 5px;
+      text-align: center;
+    }
+  
+.kotak .A 
+{
+      display: inline-block;
+      width: 150px;
+}
